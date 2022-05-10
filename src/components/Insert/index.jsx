@@ -6,7 +6,7 @@ import { message } from "antd";
 
 function Insert() {
   const { theme } = useTheme();
-  const { todos, setTodos, setDisplayedTodos, displayedTodos } = useTodo();
+  const { setTodos, setDisplayedTodos } = useTodo();
   const [values, setValues] = useState({
     title: "",
     description: "",
